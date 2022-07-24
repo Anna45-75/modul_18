@@ -1,0 +1,17 @@
+.wrapper {
+    background-color: lightgray;
+    padding: 15px 5px;
+}
+
+.item {
+    margin: 5px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    width: 50px;
+    display: inline-block;
+}
+
+.item:nth-child(odd) {
+    display: none;
+}
