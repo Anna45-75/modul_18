@@ -5,6 +5,11 @@ body {
     margin: 0;
 }
 
+.wrapper {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
 .button {
     background: #E3B873;
     box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
@@ -17,31 +22,40 @@ body {
 
 }
 
+.button_it {
+    font-style: italic;
+}
+
 .logo {
     color: #E3B873;
-    padding-left: 92px;
 }
 
 .header {
     background-color: black;
+    font-size: 11px;
+}
+
+.header-content {
     display: flex;
     justify-content: space-between;
+    height: 83px;
+    align-items: center;
 }
 
 .header-navigation {
     list-style-type: none;
     display: flex;
-    padding-top: 37px 36px;
 }
 
-.header-navigation_item {
-    margin-right: 47px;
-    text-transform: uppercase;
-}
-
-a:link,
-:visited,
-:hover.header-navigation_link {
+a.header-navigation_link {
     text-decoration: none;
+    text-transform: uppercase;
     color: white;
+    padding-right: 47px;
+
+}
+
+a.header-navigation_link:active,
+a.header-navigation_link:hover {
+    color: #E3B873;
 }
