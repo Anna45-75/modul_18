@@ -64,6 +64,12 @@ a.header-navigation_link:hover {
     color: #E3B873;
 }
 
+.hero {
+    background-image: url("../images/hero1.jpg");
+    background-size: cover;
+    height: 707px;
+}
+
 .hero_color {
     z-index: +1;
     position: relative;
@@ -119,6 +125,8 @@ a.header-navigation_link:hover {
     font-size: 14px;
     padding-top: 111px;
     line-height: 163%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navigation_black {
@@ -220,18 +228,9 @@ a.navigation_black_link:hover {
 .sq {
     width: 36px;
     height: 1.5px;
-    border-top: 1px solid #fff;
     margin-top: 5px;
     position: absolute;
-}
-
-
-.w {
-    color: #fff;
-}
-
-.gold {
-    color: #E3B873;
+    border-top: 1px solid #fff
 }
 
 .circle {
@@ -246,4 +245,85 @@ a.navigation_black_link:hover {
     opacity: 100%;
 }
 
-.block_video {}
+.block_video {
+    width: 817px;
+    height: 515px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -200px;
+    background-color: black;
+    text-align: center;
+}
+
+.block_video h1 {
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.box_video {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.sq_gold {
+    width: 32px;
+    height: 1.5px;
+    margin-top: 10px;
+    margin-left: 3px;
+    border-top: 1px solid #E3B873;
+}
+
+
+.circle_gold {
+    background: #E3B873;
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+    position: relative;
+    top: 174px;
+    left: 365px;
+
+}
+
+
+.arrow_full {
+    border: 20px solid transparent;
+    border-left: 20px solid #fff;
+    position: absolute;
+    top: 22px;
+    right: 10px;
+}
+
+
+.im_video {
+    background-image: url("../images/image6.png");
+    margin: 0 auto;
+    width: 817px;
+    height: 434px;
+    opacity: 70%;
+}
+
+.sq_gold1 {
+    width: 58px;
+    height: 3px;
+    margin: 0 auto;
+    border-top: 1px solid #E3B873;
+}
+
+
+.block_form {
+    width: 817px;
+    height: 515px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 63px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 168%;
+}
