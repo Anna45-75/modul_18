@@ -120,13 +120,22 @@
                 from one of our facilities!
                 Leave a request below and you will receive a link to the broadcast.</p>
             <form action="#">
-                <fieldset>
-                    <label for="name">Name:</label>
-                    <input id="name" placeholder="What is your name">
-                    <label for="telephone">Phone:</label>
-                    <input id="telephone" placeholder="Your phone number:">
+                <div class="container_form">
+                    <div class="container_lable">
+                        <label for="name">Name:</label>
+                        <input name="name" type="text" placeholder="What is your name">
+                    </div>
+                    <div class="container_lable">
+                        <label for="telephone" class="n_f">Phone:</label>
+                        <input name="telephone" type="phone" placeholder="Your phone number:">
+                    </div>
                     <button class="button button_it">SUMBUT</button>
-                </fieldset>
+                </div>
+                <label class="gold_chek">
+                    <input type="checkbox" checked="checked" name="agree"><span>I agree to the processing of
+                        personal data</span>
+                </label>
+
             </form>
         </section>
     </main>
